@@ -1,0 +1,70 @@
+.nav {
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  position: sticky;
+  padding: 50px 100px;
+  align-items: center;
+  justify-content: center;
+
+  .content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      height: 60px;
+
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    ul {
+      display: grid;
+      column-gap: 40px;
+      align-items: center;
+      grid-auto-flow: column;
+      grid-template-columns: repeat(4, auto);
+
+      li {
+        transition: transform 0.2s ease-in-out;
+
+        a {
+          font-size: 1.11em;
+          font-weight: 700;
+          text-decoration: none;
+          transition: color 0.2s ease-in-out;
+        }
+
+        button {
+          border: none;
+          outline: none;
+          font-size: 1.11em;
+          cursor: pointer;
+          font-weight: 700;
+          appearance: none;
+          padding: 10px 25px;
+          color: var(--black1);
+          border-radius: 100px;
+          background: var(--white1);
+        }
+
+        .connect {
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .nav {
+    padding: 30px 50px;
+  }
+}

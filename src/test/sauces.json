@@ -1,0 +1,32 @@
+{
+  "sauce_honey_bbq": {
+    "description": "Medium Sauce",
+    "id": "sauce_honey_bbq",
+    "name": "Honey BBQ",
+    "info": "210 Cal"
+  },
+  "sauce_doritos_flamin_hot": {
+    "id": "sauce_doritos_flamin_hot",
+    "name": "Doritos Flamin Hot",
+    "description": "Hot Sauce",
+    "info": "380 Cal"
+  },
+  "sauce_lemon_pepper": {
+    "description": "Mild Sauce",
+    "id": "sauce_lemon_pepper",
+    "name": "Lemon Pepper",
+    "info": "10 Cal"
+  },
+  "sauce_parmesan_garlic": {
+    "description": "Mild Sauce",
+    "id": "sauce_parmesan_garlic",
+    "name": "Parmesan Garlic",
+    "info": "190 Cal"
+  },
+  "sauce_medium": {
+    "description": "Medium Sauce",
+    "id": "sauce_medium",
+    "name": "Medium",
+    "info": "50 Cal"
+  }
+}

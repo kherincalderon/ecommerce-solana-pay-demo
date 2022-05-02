@@ -1,0 +1,45 @@
+{
+  "boneless_wings": {
+    "name": "Boneless Wings",
+    "id": "boneless_wings",
+    "image": "/images/boneless_wings.png",
+    "maxsauces": 2,
+    "maxdips": 4,
+    "maxextras": 3,
+    "dips": ["dips_bleu_cheese", "dips_ranch", "dips_carrots", "dips_celery"],
+    "extras": [
+      "extras_french_fries",
+      "extras_potato_wedges",
+      "extras_onion_rings",
+      "extras_mac_cheese",
+      "extras_cheddar_cheese_curds",
+      "extras_tots",
+      "extras_chips_salsa",
+      "extras_garden_side_salad"
+    ],
+    "sauces": [
+      "sauce_honey_bbq",
+      "sauce_doritos_flamin_hot",
+      "sauce_lemon_pepper",
+      "sauce_parmesan_garlic",
+      "sauce_medium"
+    ],
+    "combos": [
+      {
+        "price": 15,
+        "name": "10 Boneless Wings",
+        "id": "combo_10_boneless_wings"
+      },
+      {
+        "price": 21,
+        "name": "15 Boneless Wings",
+        "id": "combo_15_boneless_wings"
+      },
+      {
+        "price": 27,
+        "name": "20 Boneless Wings",
+        "id": "combo_20_boneless_wings"
+      }
+    ]
+  }
+}

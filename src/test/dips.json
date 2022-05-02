@@ -1,0 +1,22 @@
+{
+  "dips_bleu_cheese": {
+    "description": "280 Cal",
+    "name": "Bleu Cheese",
+    "id": "dips_bleu_cheese"
+  },
+  "dips_ranch": {
+    "description": "320 Cal",
+    "name": "Ranch",
+    "id": "dips_ranch"
+  },
+  "dips_carrots": {
+    "description": "25 Cal",
+    "id": "dips_carrots",
+    "name": "Carrots"
+  },
+  "dips_celery": {
+    "description": "15 Cal",
+    "id": "dips_celery",
+    "name": "Celery"
+  }
+}

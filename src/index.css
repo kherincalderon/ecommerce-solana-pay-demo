@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  --gray1: #e5e5e5;
+  --black1: #141b1b;
+  --white1: #ffffff;
+  --yellow1: #ffc600;
+  --orange1: #fc7c04;
+}
+
+ul {
+  list-style: none;
+}

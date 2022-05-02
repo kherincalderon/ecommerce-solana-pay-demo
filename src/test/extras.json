@@ -1,0 +1,50 @@
+{
+  "extras_french_fries": {
+    "id": "extras_french_fries",
+    "description": "420 Cal",
+    "name": "French Fries",
+    "price": 5
+  },
+  "extras_potato_wedges": {
+    "id": "extras_potato_wedges",
+    "description": "370 Cal",
+    "name": "Potato Wedges",
+    "price": 7
+  },
+  "extras_onion_rings": {
+    "id": "extras_onion_rings",
+    "description": "420 Cal",
+    "name": "Onion Rings",
+    "price": 7
+  },
+  "extras_mac_cheese": {
+    "description": "420 Cal",
+    "id": "extras_mac_cheese",
+    "name": "Mac & Cheese",
+    "price": 7
+  },
+  "extras_cheddar_cheese_curds": {
+    "id": "extras_cheddar_cheese_curds",
+    "name": "Cheddar Cheese Curds",
+    "description": "920 Cal",
+    "price": 7
+  },
+  "extras_tots": {
+    "id": "extras_tots",
+    "name": "Tots",
+    "description": "620 Cal",
+    "price": 4
+  },
+  "extras_chips_salsa": {
+    "id": "extras_chips_salsa",
+    "name": "Chips & Salsa",
+    "description": "520 Cal",
+    "price": 4
+  },
+  "extras_garden_side_salad": {
+    "id": "extras_garden_side_salad",
+    "name": "Garden Side Salad",
+    "description": "80 Cal",
+    "price": 5
+  }
+}

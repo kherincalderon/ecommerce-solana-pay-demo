@@ -1,0 +1,55 @@
+.container {
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 150px;
+  display: grid;
+  row-gap: 10px;
+  width: 100%;
+  top: 0;
+
+  .checktitle {
+    color: var(--yellow1);
+    font-weight: 700;
+    font-size: 1.3em;
+  }
+
+  .actions {
+    button {
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-size: 1.11em;
+      font-weight: 700;
+      appearance: none;
+      padding: 10px 30px;
+      color: var(--white1);
+      border-radius: 100px;
+      background: var(--orange1);
+    }
+
+    .backBtn {
+      background: transparent;
+    }
+  }
+
+  .steps {
+    display: flex;
+
+    li {
+      margin-right: 20px;
+
+      span {
+        font-weight: 700;
+        font-size: 1.55em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .container {
+    padding: 0 100px;
+  }
+}
